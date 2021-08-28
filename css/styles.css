@@ -1,0 +1,198 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.ml-auto {
+    margin-left: auto;
+}
+#title {
+    background-color: #ff4c68;
+    color: white;
+    padding-left: 7%;
+    padding-right: 6%;
+}
+
+h1{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat-Black', sans-serif;
+}
+.container-fluid{
+    padding: 3% 10% 7%;
+}
+
+/* Navigaion Bar */
+
+.navbar{
+    padding:0 0 4.5rem 0; 
+}
+#nav-container{
+    padding-left: 0;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-family: 'Montserrat-Light', sans-serif; 
+    font-size: 1.2rem;
+}
+
+/* Download Button */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image{
+    width: 20%;
+    transform: rotate(25deg);
+    position:absolute;
+    left: 55%;
+}
+@media(min-width: 1024px){    
+    .title-image{
+        width: 20%;
+        transform: rotate(25deg);
+        position:absolute;
+        left: 55%;
+    }
+} 
+@media(max-width:992px)
+{
+    .title-image{
+        width: 60%;
+        transform: rotate(0);
+        position: static;
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+/*Features Section*/
+
+#features{
+    background-color: white;
+    position: relative;
+    padding: 7% 15%;
+}
+.feature-box{
+   text-align: center;
+   padding: 5%;
+} 
+.iconx{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+
+.iconx:hover{
+    color: #ff4c68;
+}
+
+.feature-section{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight:900;
+    font-size: 1.5rem;
+}
+.feature-p{
+    color:#8f8f8f;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+}
+
+.testimonial-picture{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-table{
+    padding: 3% 2%;
+} 
+.card-btn{
+    padding: 3% 30%;
+}
+@media (max-width:992px) {
+    .card-btn{
+        padding: 3% 20%;
+    }
+} 
+
+/* Call to Action */
+
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    padding: 5% 0 10% 0;
+    text-align: center;
+}
+
+.cta-text{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 0 20% 3% 20%;
+}
+
+.cta-button{
+    margin:2% 1%;
+}
+
+@media(max-width:992px){
+    .cta-button{
+        margin:2% 5% 2% 5%;
+    }
+}
+
+/* Footer */
+
+#footer{
+    text-align: center;
+    margin: 5%;
+    background-color: white;
+}
+
+.icon-footer{
+    margin: 2% 0.7%;
+}
